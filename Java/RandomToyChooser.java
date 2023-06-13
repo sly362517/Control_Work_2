@@ -14,6 +14,6 @@ class RandomToyChooser {
             if (countWeight >= r)
                 return toy;
         }
-        throw new RuntimeException("Should never be shown.");
+        throw new RuntimeException("Should never be shown");
     }
 }
