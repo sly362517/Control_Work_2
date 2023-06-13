@@ -7,10 +7,10 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
 
-        Toy toy1 = new Toy(0, "Кукла", 25);
+        Toy toy1 = new Toy(0, "Кукла", 30);
         Toy toy2 = new Toy(1, "Машинка", 40);
-        Toy toy3 = new Toy(2, "Робот", 3);
-        Toy toy4 = new Toy(3, "Матрёшка", 65);
+        Toy toy3 = new Toy(2, "Робот", 5);
+        Toy toy4 = new Toy(3, "Матрёшка", 60);
 
         List<Toy> toys = new ArrayList<Toy>();
         toys.add(toy4);
