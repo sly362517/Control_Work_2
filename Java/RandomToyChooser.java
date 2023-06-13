@@ -1,4 +1,4 @@
-package ToyStore;
+package Java;
 
 import java.util.List;
 

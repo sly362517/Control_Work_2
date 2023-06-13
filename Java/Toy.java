@@ -1,5 +1,4 @@
-package ToyStore;
-
+package Java;
 
 public class Toy {
 

@@ -1,4 +1,4 @@
-package ToyStore;
+package Java;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,7 +20,7 @@ public class ToyStore {
     public void saveToyForLottery() {
         Toy toy = getToyForPrice();
         String text = toy.toString();
-        try(FileWriter writer = new FileWriter("toy-store/ToyStore/Toys.txt", true))
+        try(FileWriter writer = new FileWriter("Control_Work_2/Java/Toys.txt", true))
         { 
             writer.write(text);
             writer.append('\n');
